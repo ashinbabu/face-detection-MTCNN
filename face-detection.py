@@ -53,7 +53,7 @@ def load_images_and_detect_faces(data_folder):
     return faces, labels
 
 # Load faces and labels from the extracted frames
-data_folder = "/content/drive/MyDrive/Techgentsia/Dataset/extracted_frames"  # Replace with your actual folder path
+data_folder = "/content/drive/MyDrive/Techgentsia/Dataset/extracted_frames" 
 faces, labels = load_images_and_detect_faces(data_folder)
 
 # Display the number of faces detected
